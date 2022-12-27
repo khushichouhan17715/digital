@@ -1,0 +1,1006 @@
+@font-face {
+    font-family: Cooper;
+    src: url("./CooperLtBTWXXLight.ttf");
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    min-height: 100%;
+    width: 100%;
+}
+#main{
+    overflow-x: hidden;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page1 img{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#nav{
+    padding: 4.4vh 1vw;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}       
+#this_is_digital h1
+{ 
+    font-weight: 200;
+    font-family: Cooper;
+    transition: 0.3s;
+}
+#this_is_digital h1 span{
+    color: rgb(95, 232, 207);
+}
+#this_is_digital h1:hover{
+    transform: scale(.95); 
+    transform-origin:center;
+    opacity: .7;
+}
+#tages{
+    height: 2rem;
+    margin-top: 1rem;
+    margin-right: 5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+}
+#tages a{
+    font-family: Cooper;
+    color: black;
+    align-items: center;
+    text-decoration-color: transparent;
+}
+#tages a:hover{
+    transition: 1s all;
+    text-decoration: underline;
+    text-decoration-color: springgreen;
+    text-underline-offset: 5px;
+}
+/* #green{
+    overflow: hidden;
+      top: 30px;
+      right: 259px;
+      position: absolute;
+      height: 60px;
+      width: 200px;
+      background-color: springgreen;
+      z-index: 99999;
+}  */
+#tages a:nth-last-child(1){
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    margin-top: -1.5vh;
+   padding: 0vh 1vw;
+   text-transform: capitalize;
+    border: 1px solid rgba(0, 0, 0, 0.264);
+    border-radius: 30px;
+}
+#tages a:nth-last-child(1) img{
+    transform: rotate(90deg);
+    width: 3rem;
+}
+#tages a:nth-last-child(1):hover{
+    text-decoration: none;
+}
+#menu_div{
+    height: 40px;
+    width: 80px;
+    display: none;
+    justify-content:center;
+    align-items: center;
+ }
+#menu_div i{
+    z-index: 10000000;
+    font-size: 30px;
+}
+#center_div{ 
+    /* position: relative; */
+    height:95vh;
+    width: 100vw;
+}
+#center_txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 999;
+}
+#center_txt h1{
+    font-family: Cooper;
+    font-weight: 100;
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+#center_txt h1::after{
+    content: " ";
+    position: absolute;
+    top: 11.4rem;
+    left: 14rem;
+    height: 1rem;
+    width: 20rem;
+    background-image: url("https://thisisdigital.co.uk/dist/images/underline-green.svg");
+} 
+
+#txt h2{
+    font-family: Cooper;
+    font-size: 4vh;
+}
+/* ================= */
+/* #page1_center{
+    background-color: antiquewhite;
+    left: 70vh;
+    top: 70vh;
+    height: 10vh;
+    width: 45vh;
+    display: flex;
+    justify-content: space-between;
+}
+#txt h2{
+    font-family: Cooper;
+    font-size: 4vh;
+} */
+/* ======================== */
+
+/* #center_txt i{
+    z-index: 10000000;
+    font-size: 30px;
+} */
+/* #center_txt a{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    margin-top: -1.3vh;
+    padding: 0vh 2vw;
+    text-transform: capitalize;
+    border: 1px solid rgba(0, 0, 0, 0.264);
+    border-radius: 20px;
+}
+#center_txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 999;
+}
+#center_txt h1{
+    font-family: Cooper;
+    font-weight: 100;
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+#center_txt h1::after{
+    content: " ";
+    position: absolute;
+    top: 11.4rem;
+    left: 14rem;
+    height: 1rem;
+    width: 20rem;
+    background-image: url("https://thisisdigital.co.uk/dist/images/underline-green.svg");
+} 
+#h2_tag{
+    background-color: antiquewhite;
+    height: 10vh;
+    width: 40vh;
+    left: 60vh;
+  display: flex;
+}
+#h2_tag h2{
+    background-color: aqua;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 10vh;
+    margin-left: 35vh;
+    width: 40vh;
+    font-family: Cooper;
+}
+#center_txt #img{
+    transform: rotate(90deg);
+    width: .1rem;
+    align-items: center;    
+} */
+#center_div #img1{
+    position: absolute;
+    top: 20vh;
+    left: 7vw;
+    height: 71vh;
+    width: 22vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+}
+/* #img1:hover{
+    top: 6.5rem;
+} */
+#center_div #img2{
+    position: absolute;
+    top: 60vh;
+    left: 68vw;
+    height: 35vh;
+    width: 20vw;
+    /* background-color: aqua; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+}
+/* #img2:hover{
+    top: 6.5rem;
+} */
+#center_div #img3{
+    /* white-space: no; */
+    position: absolute;
+    top: 20vh;
+    left: 74vw;
+    height: 39vh;
+    width: 18vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+} 
+/* #img3:hover{
+    top: 22.5rem;
+} */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+#page2{
+    height: 75vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#center_div2{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 51vw;
+    height: 60vh;
+    color: aliceblue;  
+}
+#center_div2 h1{
+    font-family: Cooper;
+    font-size: 43px;
+    font-family: 100;
+    text-align: center;
+}
+#center_div2 h1::after{
+    content: "";
+    top: 144vh;
+    left: 43%; 
+    height: 70px;
+    width: 200px;
+    z-index: 99999;
+    position: absolute;
+    background-image: url("https://thisisdigital.co.uk/dist/images/circle-green.svg");
+} 
+#center_div2 span{
+ color: rgb(80, 255, 191);
+ font-size: 100px;
+}
+#about_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: Cooper;
+    font-size: 25px;
+    font-family: 100;
+    text-transform:capitalize;
+}
+#center_div2 h3{
+    font-family: Cooper;
+    font-family: 100;
+}
+#center_div2 h3 a{
+   display: flex;
+   justify-content: space-around;
+    width: 80px;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.arrow2{
+    transform: rotate(0deg);
+    width: 2rem;    
+}
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+#page3{
+   min-height: 129vh;
+    width: 100vw;
+    display: flex;
+} 
+#p3_left{
+    left: 0;
+   height: 100%;
+   width: 50%; 
+     display: flex;
+    justify-content: space-between;
+}
+#l_first{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    left: 0;
+    height: 100%;
+    width: 25%;
+}
+#img4{
+    height: 60%;
+    width: 90%;
+    
+}
+#img5{
+    height: 30%;
+    width: 90%;
+}
+#l_second{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    right: 0;
+    height: 100%;
+    width: 74%;
+}
+#img6{  
+    height: 25%;
+    width: 75%;
+}
+#img7{
+    height: 80%;
+    width: 100%;
+}
+#p3_right{
+    position: relative;
+   right: 0;
+   height: 100%;
+   width: 50%;
+}
+#p3_rtxt{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    height: 50vh;
+    width: 90vh;
+}
+#p3_rtxt h1{
+    font-family: Cooper;
+     font-size: 9.5vh;  
+     font-weight: 300;    
+}
+#p3_rtxt p{
+    position:absolute;
+    top: 60%;
+    width: 80vh;
+    text-align: left;
+    line-height: 2;
+    font-size: 2.4vh; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#p3_profile_div{
+    position: absolute;
+    bottom: -50%;
+    left: 0%;
+    height:15vh;
+    width: 80vh;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+#profile_pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: rotate(270deg);
+    background-color: r;
+}
+#p3_profile_div h2{
+    font-family: Cooper;
+    font-size: 3.7vh;   
+}
+#p3_profile_div  h3{
+    color: black;
+    font-size: 20px;
+    /* width: 30vh; */
+    margin-top: 14px;
+}
+#p3_profile_div a{
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid rgba(0, 0, 0, 0.264);
+    border-radius: 30px;
+}
+/* #p3_profile_div  img{
+ transform: rotate(90deg); 
+    width: 3rem;
+    overflow: hidden;
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+#page4{
+    min-height: 120vh;
+    width: 100vw;
+    position: relative;
+}
+#p4_txt{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    height: 20vh;
+    width: 60vw;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#p4_txt h1{
+    font-family: Cooper;
+    font-size: 7.5vh;  
+    font-weight: 300;    
+}
+#all_brands_logo{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+#all_brands_logo img{
+    height:50px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+ #page5{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+} 
+#page5_div{
+    position: relative;
+    top: 10%;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+#page5_left{
+    position: relative;
+    height: 70vh;
+    width: 40vw;
+    background-image: url(" https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/Golf.jpeg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1635867985&s=5e7cee6801a656523b56b64a34d04786");
+    background-size: cover;
+    overflow: hidden;
+}
+#page5_left:hover{
+    transform: scale(1.08);
+}
+#page5_left h1{
+    position: absolute;
+    color: aliceblue;
+    font-size: 7vh;
+    width: 80%;
+    font-weight: 100;
+    font-family: cooper;
+    bottom: 15%;
+    text-transform: capitalize;
+    left: 8%;
+}
+.img_logo {
+    margin-top: 4vh;
+    margin-left: 3vw;
+    width: 9rem;
+}
+.img_logo:hover{
+  transform: scale(1.4);
+}
+.arrow3{
+    transform: rotate(90deg);  
+    width: 5vh;
+    /* font-size: 2.6vh; */
+    margin-top: .8vh;
+    border: 2px solid rgb(255, 245, 245);
+    border-radius: 20px;
+}
+#page5_left a{
+    position: absolute;
+    left: 3vw;
+    bottom: 3%;
+    display: flex;
+    gap: 1vw;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#page5_right{
+    position: relative;
+    background-color: aliceblue;
+    height: 70vh;
+    width: 40vw;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/work-thumbnail-03.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1627573623&s=efbebf8d2134c057c66886c970e18069");
+    background-size: cover;
+    overflow: hidden;
+}
+#oneimg img{
+    position: absolute;
+    top: 2vh;
+    left: 5vw;
+}
+#page5_right h1{
+    position: absolute;
+    color: aliceblue;
+    font-size: 7vh;
+    width: 80%;
+    font-weight: 100;
+    font-family: cooper;
+    bottom: 15%;
+    text-transform: capitalize;
+    left: 8%;
+}
+#page5_right a{
+    position: absolute;
+    left: 3vw;
+    bottom: 3%;
+    display: flex;
+    gap: 1vw;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#page5_center{
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:15vh;
+    width: 80vh;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+#p5_profile_pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: rotate(270deg);
+}
+#page5_center h2{
+    font-family: Cooper;
+    font-size: 3.7vh;   
+}
+#page5_center  h3{
+    color: black;
+    font-size: 17px;
+    margin-top: 14px;
+}
+#page5_center a{
+    width: 25vh;
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid rgba(0, 0, 0, 0.264);
+    border-radius: 30px;
+}
+#page5_center  img{
+    transform: rotate(90deg);
+    width: 3rem;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+#page6{
+   min-height: 105vh;
+    width: 100vw;
+    position: relative;
+    margin: 0%;
+} 
+.swiper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-slide img {
+    display: block;
+    width: 6vw;
+    object-fit: cover;
+  }
+.swiper-slide{
+    position: relative;
+    height:80vh;
+    width: 100%;
+   align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+} 
+.swiper-slide h1{
+    font-family: cooper;
+    height: 30%;
+    width: 70%;
+    font-size: 7vh;
+    text-align: center;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+#page7{
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#overlay{
+    position:relative;
+    z-index: 99999;
+align-items: center;
+  top: -30%; 
+  background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-239.jpg?w=1200&h=394&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002673&s=a8225dd79a8eb0d05ce0db6b2a5efd03");
+ 
+   height: 40%;
+   width: 67% 
+}
+#img-div{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.544);
+   height: 100%;
+   width: 100% 
+}
+#img-div h1{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 88%;
+    font-size: 5vh;
+    font-weight: 100;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#black_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    bottom: 0%;
+   background-color: rgb(0, 0, 0);
+   height: 75%;
+    width: 100%;
+}
+#p7_middle{
+    position: relative;
+    top: 3%;
+    height: 65%;
+    width: 80%;
+    /* background-color: antiquewhite; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.348);
+}
+#three_div{
+    padding-top: 17vh;
+    position: absolute;
+    display: flex;
+    gap: 8vw;
+    width: 100%;
+}
+#mone{
+    width: 20vw;
+    font-size: 3vh;
+   color: aliceblue;
+   font-family: cooper;
+   font-weight: 100;
+margin-left: 0%;
+}
+#mone a
+{  
+    margin-top: 3vh;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    text-decoration: none;
+}
+#mone a img{
+    padding: 3px;
+    height: 5vh;
+    width: 8vh;
+    transform: rotate(0deg);
+}
+#mone a h2{
+    font-size: 26px;
+    color: aliceblue;
+}
+#mtwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 9vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    
+}
+.atages{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    color:rgb(255, 255, 255); 
+    text-transform: capitalize;  
+}
+.atages a{
+    text-transform: capitalize;
+    font-size: 19px;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.77);
+}
+.atages h3{
+    font-size: 19px;
+    color: rgba(240, 248, 255, 0.77);
+}
+
+
+#mthree{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    /* background-color: rgb(161, 204, 204); */
+}
+
+#img10{
+
+    width: 7vw;
+}
+#img11{
+    
+    width: 7vw;
+}
+#img12{
+   
+    width: 7vw;
+}
+
+
+
+#p7_lower{
+    bottom: 0%;
+ position: absolute;
+    height: 14%;
+    width: 80%;
+}
+
+#p7_this_is_digital h1
+{ 
+    margin-top: 4vh;
+    font-weight: 200;
+    font-family: Cooper;
+    transition: 0.3s;
+    font-size: 20px;
+    color: aliceblue;
+}
+#p7_this_is_digital h1 span{
+    color: rgb(95, 232, 207);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px) {
+    #page1{
+        height: 120vh;
+        width: 100vw;
+        position: relative;
+    }
+    #this_is_digital{
+        display: inline-block;
+        width: 24rem;
+    }
+    #this_is_digital h1{
+        display: inline-block;
+        font-size: 30px;
+    }
+    #tages a{
+        display:none;
+    }
+    #tages a:nth-last-child(1){
+        display: none;
+    }
+    #menu_div{
+        margin-left: 50px;
+        height: 40px;
+        width: 80px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    #center_txt{
+        height: 200px;
+        width: 500px;
+        display: inline-block;
+        width: 400px;
+        z-index: 100000;
+        position: absolute;
+        top: 33vh;
+        left: 52vw;
+    }
+    #center_txt h1{
+        font-size: 35px;
+      }
+    #center_txt h1::after{
+        content: " ";
+        position: absolute;
+        top: 80px;
+        left: 130px;
+        height: .5rem;
+        width: 140px;
+        background-image: url("https://thisisdigital.co.uk/dist/images/underline-green.svg");
+    } 
+    #center_txt h2{
+        display: flex;
+        gap: 1rem;
+        margin-top: 4.5vh;
+        margin-left: 16vh;
+        font-family: Cooper;
+        font-size: 18px;
+    }
+    #arrow1{
+        transform: rotate(90deg);
+        width: 1rem;    
+    }
+    #img1{
+        position: absolute;
+        top: 44vh;
+        left: 0;
+        height: 84vh;
+        width: 100vw;
+    }
+    #img2{
+        display: none;
+    }
+    #img3{
+        display: none;
+    } 
+    #page2{
+        position: relative;
+        height: 50vh;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    #center_div2{
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 75vw;
+        height: 40vh;
+        color: aliceblue;  
+    }
+    #center_div2 h1{
+        top: 0;
+        font-family: Cooper;
+        font-size: 24px;
+        font-family: 100;
+        text-align: center;
+    }
+    #center_div2 h1::after{
+        content: "";
+        top: 168px;
+        left: 37%; 
+        height: 50px;
+        width: 104px;
+        z-index: 99999;
+        position: absolute;
+        background-image: url("https://thisisdigital.co.uk/dist/images/circle-green.svg");
+    } 
+    #center_div2 span{
+        color: rgb(80, 255, 191);
+        font-size: 50px;
+    }
+    #center_div2 h3{
+        font-family: Cooper;
+        font-family: 100;
+        font-size: 13px;
+        text-align: center;
+    }
+    #center_div2 h3 a{
+        display: flex;
+        justify-content: space-around;
+        width: 80px;
+        font-size: 20px;
+        align-items: center;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 20px;
+    }
+    #about_us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-family: Cooper;
+        font-size: 18px;
+        font-family: 100;
+        text-transform:capitalize;
+    }
+    
+    #arrow2{
+        width: 20px;    
+    }
+}                                                               
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+ 
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+
+} 
